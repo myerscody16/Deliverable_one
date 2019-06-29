@@ -31,8 +31,8 @@ namespace deliverable_one
         public static void USDtoKrona(Double firstValue, Double secondValue, Double thirdValue)
         {
             Double Krona1 = System.Math.Round(firstValue * .033, 2);
-            Double Krona2 = secondValue * .033;
-            Double Krona3 = thirdValue * .033;
+            Double Krona2 = System.Math.Round(secondValue * .033, 2);
+            Double Krona3 = System.Math.Round(thirdValue * .033, 2);
             Console.WriteLine("Your first value converts to {0} Krona", Krona1);
             Console.WriteLine("Your second value converts to {0} Krona.", Krona2);
             Console.WriteLine("Your third value converts to {0} Krona.", Krona3);
@@ -62,35 +62,39 @@ namespace deliverable_one
             Console.WriteLine("The total of all of these values in USD is {0}.", total);
             Console.WriteLine("The average of the three values in USD is {0}.", average);
 
-            if (firstValue > secondValue && secondValue > thirdValue)
+            Double first = System.Math.Round(firstValue, 2);
+            Double second = System.Math.Round(secondValue, 2);
+            Double third = System.Math.Round(thirdValue, 2);
+
+            if (first > second && second > third)
             {
-                Console.WriteLine("The largest value is {0}.", firstValue);
-                Console.WriteLine("The smallest value is {0}.", thirdValue);
+                Console.WriteLine("The largest value is {0}.", first);
+                Console.WriteLine("The smallest value is {0}.", third);
             }
-            else if (secondValue > firstValue && firstValue > thirdValue)
+            else if (second > first && first > third)
             {
-                Console.WriteLine("The largest value is {0}.", secondValue);
-                Console.WriteLine("The smallest value is {0}.", thirdValue);
+                Console.WriteLine("The largest value is {0}.", second);
+                Console.WriteLine("The smallest value is {0}.", third);
             }
-            else if (thirdValue > secondValue && secondValue > firstValue)
+            else if (third > second && second > first)
             {
-                Console.WriteLine("The largest value is {0}.", thirdValue);
-                Console.WriteLine("The smallest value is {0}.", firstValue);
+                Console.WriteLine("The largest value is {0}.", third);
+                Console.WriteLine("The smallest value is {0}.", first);
             }
-            else if (thirdValue > firstValue && firstValue > secondValue)
+            else if (third > first && first > second)
             {
-                Console.WriteLine("The largest value is {0}.", thirdValue);
-                Console.WriteLine("The smallest value is {0}.", secondValue);
+                Console.WriteLine("The largest value is {0}.", third);
+                Console.WriteLine("The smallest value is {0}.", second);
             }
-            else if (firstValue > thirdValue && thirdValue > secondValue)
+            else if (first > third && third > second)
             {
-                Console.WriteLine("The largest value is {0}.", firstValue);
-                Console.WriteLine("The smallest value is {0}.", secondValue);
+                Console.WriteLine("The largest value is {0}.", first);
+                Console.WriteLine("The smallest value is {0}.", second);
             }
-            else if (secondValue > thirdValue && thirdValue > firstValue)
+            else if (second > third && third > first)
             {
-                Console.WriteLine("The largest value is {0}.", secondValue);
-                Console.WriteLine("The smallest value is {0}.", firstValue);
+                Console.WriteLine("The largest value is {0}.", second);
+                Console.WriteLine("The smallest value is {0}.", first);
             }
             else
             {
