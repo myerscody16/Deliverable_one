@@ -37,27 +37,33 @@ namespace deliverable_one
             Double Krona1 = System.Math.Round(firstValue * .033, 2);
             Double Krona2 = System.Math.Round(secondValue * .033, 2);
             Double Krona3 = System.Math.Round(thirdValue * .033, 2);
+            Double Kronat = System.Math.Round((firstValue + secondValue + thirdValue)*.033, 2);
             Console.WriteLine("Your first value converts to {0} Krona", Krona1);
             Console.WriteLine("Your second value converts to {0} Krona.", Krona2);
             Console.WriteLine("Your third value converts to {0} Krona.", Krona3);
+            Console.WriteLine("Your total value converts to {0} krona.", Kronat);
         }
         public static void USDtoYen(Double firstValue, Double secondValue, Double thirdValue)
         {
             Double Yen1 = System.Math.Round(firstValue * 107.9, 0);
             Double Yen2 = System.Math.Round(secondValue * 107.9, 0);
             Double Yen3 = System.Math.Round(thirdValue * 107.9, 0);
+            Double Yent = System.Math.Round((firstValue + secondValue + thirdValue) * 107.9, 0);
             Console.WriteLine("Your first value converts to {0} Yen.", Yen1);
             Console.WriteLine("Your second value converts to {0} Yen.", Yen2);
             Console.WriteLine("Your third value converts to {0} Yen.", Yen3);
+            Console.WriteLine("Your total value converts to {0} Yen.", Yent);
         }
         public static void USDtoBaht(Double firstValue, Double secondValue, Double thirdValue)
         {
             Double Baht1 = System.Math.Round(firstValue * 30.63, 2);
             Double Baht2 = System.Math.Round(secondValue * 30.63, 2);
             Double Baht3 = System.Math.Round(thirdValue * 30.63, 2);
+            Double bahtt = System.Math.Round((firstValue + secondValue + thirdValue) * 30.63, 2);
             Console.WriteLine("Your first value converts to {0} Baht", Baht1);
             Console.WriteLine("Your second value converts to {0} Baht", Baht2);
             Console.WriteLine("Your third value converts to {0} Baht", Baht3);
+            Console.WriteLine("Your total value converts to {0} baht.", bahtt);
         }
         public static void Assignment(Double firstValue, Double secondValue, Double thirdValue)
         {
