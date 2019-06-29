@@ -1,0 +1,11 @@
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\bin\Debug\netcoreapp2.1\deliverable_one.deps.json
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\bin\Debug\netcoreapp2.1\deliverable_one.runtimeconfig.json
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\bin\Debug\netcoreapp2.1\deliverable_one.runtimeconfig.dev.json
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\bin\Debug\netcoreapp2.1\deliverable_one.dll
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\bin\Debug\netcoreapp2.1\deliverable_one.pdb
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\obj\Debug\netcoreapp2.1\deliverable_one.csprojAssemblyReference.cache
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\obj\Debug\netcoreapp2.1\deliverable_one.csproj.CoreCompileInputs.cache
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\obj\Debug\netcoreapp2.1\deliverable_one.AssemblyInfoInputs.cache
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\obj\Debug\netcoreapp2.1\deliverable_one.AssemblyInfo.cs
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\obj\Debug\netcoreapp2.1\deliverable_one.dll
+D:\Grand_Circus_C#\Unit_one\deliverable_one\deliverable_one\obj\Debug\netcoreapp2.1\deliverable_one.pdb
