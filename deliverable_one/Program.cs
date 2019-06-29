@@ -27,6 +27,10 @@ namespace deliverable_one
             USDtoYen(firstValue, secondValue, thirdValue);
 
             Assignment(firstValue, secondValue, thirdValue);
+            /*Double check with Yasmine, after completing the program, I realized that
+             *the instructions only wanted the total to be converted to the other currencies, 
+             * not each individual value.
+             */
         }
         public static void USDtoKrona(Double firstValue, Double secondValue, Double thirdValue)
         {
